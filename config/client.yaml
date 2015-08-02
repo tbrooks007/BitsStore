@@ -1,0 +1,9 @@
+
+# configuration settings for BitsStore
+
+#configure 'BitsStore' KV servers
+#note, if these are socket servers we should had additional values like timeouts
+nodes:
+  - {name: 'NodeA', host: 127.0.0.1, port: 1234}
+  - {name: 'NodeB', host: 127.0.0.1, port: 1234}
+  - {name: 'NodeC', host: 127.0.0.1, port: 1234}
